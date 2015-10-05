@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="container">
+
+    <div id="message_container">
+        <div id="message">
+            You have three chances to unscramble the word.<br>
+            If you succeed, you get a point.<br>
+            If you fail, you lose a point.
+        </div>
+        <div id="word"></div>
+        <div id="start">Let's Play!</div>
+    </div>
+
+    <div id="game_container">
+        <div id="score_container">
+            <div id="score"></div>
+        </div>
+        <br class="clear">
+
+        <div id="letters"></div>
+
+        <form>
+            <input id="guess" type="text" placeholder="Enter your guess">
+            <input class="button" type="submit" value="Submit" autocomplete="off">
+        </form>
+    </div>
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
